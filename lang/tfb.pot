@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/twitterfollowbadge\n"
-"POT-Creation-Date: 2009-08-10 12:00+0000\n"
+"POT-Creation-Date: 2009-08-10 12:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,38 +15,42 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: twitterFollowBadge.php:49
+#: twitterFollowBadge.php:47
 msgid "Options"
 msgstr ""
 
-#: twitterFollowBadge.php:56
+#: twitterFollowBadge.php:54
 msgid "Twitter account"
 msgstr ""
 
-#: twitterFollowBadge.php:59
+#: twitterFollowBadge.php:57
 msgid "Label"
 msgstr ""
 
-#: twitterFollowBadge.php:82
+#: twitterFollowBadge.php:80
 msgid "Color"
 msgstr ""
 
-#: twitterFollowBadge.php:85
+#: twitterFollowBadge.php:83
 msgid "Side"
 msgstr ""
 
-#: twitterFollowBadge.php:89
+#: twitterFollowBadge.php:87
 msgid "Left"
 msgstr ""
 
-#: twitterFollowBadge.php:94
+#: twitterFollowBadge.php:92
 msgid "Right"
 msgstr ""
 
-#: twitterFollowBadge.php:96
+#: twitterFollowBadge.php:94
 msgid "From top"
 msgstr ""
 
-#: twitterFollowBadge.php:101
+#: twitterFollowBadge.php:95
+msgid "Pixels"
+msgstr ""
+
+#: twitterFollowBadge.php:99
 msgid "Save Changes"
 msgstr ""
