@@ -51,7 +51,7 @@ function tfb_options_page() {
   
 	wp_nonce_field('update-options');
   
-	echo '<table class="form-table" style="width: 500px;">';
+	echo '<table class="form-table" style="width: 530px;">';
 	echo '<tr valign="top">';
 	echo '<th scope="row">' . __('Twitter account', 'tfb') . '</th>';
 	echo '<td><input type="text" name="tfb_account" value="' . get_option('tfb_account') . '" /></td>';
@@ -116,7 +116,7 @@ function tfb_register_settings() {
 }
 
 $plugin_dir = basename(dirname(__FILE__));
-load_plugin_textdomain('tfb', 'wp-content/plugins/' . $plugin_dir, $plugin_dir);
+load_plugin_textdomain('tfb', 'wp-content/plugins/' . $plugin_dir . '/lang', $plugin_dir . '/lang');
 
 add_option("tfb_account");
 add_option("tfb_label", "follow-us");
