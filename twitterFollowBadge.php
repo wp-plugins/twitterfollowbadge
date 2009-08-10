@@ -4,7 +4,7 @@ Plugin Name: twitterFollowBadge
 Plugin URI: http://www.spiderpig.de
 Description: This plugin adds the "Follow Us" button from <a href="http://www.go2web20.net/twitterFollowBadge/" target="_blank">go2web20.net</a> for twitter on the left/right of any page. I wrote this, because i was tired to add the code to each template's footer.
 Author: Jan Schöppach
-Version: 1.0.0
+Version: 1.0.1
 Author URI: http://www.jan-schoeppach.de/
 */
 /*  Copyright 2009  Jan Schöppach  (email : dns013@gmail.com)
@@ -37,8 +37,6 @@ function addBadge() {
 		--></script>
 	<!-- end of twitter follow badge -->");
 }
-
-
 
 function tfb_menu() {
 	add_options_page('twitterFollowBadge Options', 'twitterFollowBadge', 8, 'twitterFollowBadge', 'tfb_options_page');
@@ -94,7 +92,7 @@ function tfb_options_page() {
 	echo '/> ' . __('Right', 'tfb') . '</td>';
 	echo '</tr>';
 	echo '<th scope="row">' . __('From top', 'tfb') . '</th>';
-	echo '<td><input type="text" name="tfb_top" value="' . get_option('tfb_top') . '" />' . __('Pixels') . '</td>';
+	echo '<td><input type="text" name="tfb_top" value="' . get_option('tfb_top') . '" />' . __('Pixels', 'tfb') . '</td>';
 	echo '</tr>';
 	echo '</table>';
 	echo '<p class="submit">';	
@@ -105,6 +103,8 @@ function tfb_options_page() {
   
 	echo '</form>';
 	echo '</div>';
+	
+	addBadge();
 }
 
 function tfb_register_settings() {
