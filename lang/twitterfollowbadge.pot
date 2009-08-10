@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/twitterfollowbadge\n"
+"POT-Creation-Date: 2009-08-10 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: twitterFollowBadge.php:49
+msgid "Options"
+msgstr ""
+
+#: twitterFollowBadge.php:56
+msgid "Twitter account"
+msgstr ""
+
+#: twitterFollowBadge.php:59
+msgid "Label"
+msgstr ""
+
+#: twitterFollowBadge.php:82
+msgid "Color"
+msgstr ""
+
+#: twitterFollowBadge.php:85
+msgid "Side"
+msgstr ""
+
+#: twitterFollowBadge.php:89
+msgid "Left"
+msgstr ""
+
+#: twitterFollowBadge.php:94
+msgid "Right"
+msgstr ""
+
+#: twitterFollowBadge.php:96
+msgid "From top"
+msgstr ""
+
+#: twitterFollowBadge.php:101
+msgid "Save Changes"
+msgstr ""
