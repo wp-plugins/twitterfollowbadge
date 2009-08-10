@@ -94,7 +94,7 @@ function tfb_options_page() {
 	echo '/> ' . __('Right', 'tfb') . '</td>';
 	echo '</tr>';
 	echo '<th scope="row">' . __('From top', 'tfb') . '</th>';
-	echo '<td><input type="text" name="tfb_top" value="' . get_option('tfb_top') . '" /> Pixels</td>';
+	echo '<td><input type="text" name="tfb_top" value="' . get_option('tfb_top') . '" />' . __('Pixels') . '</td>';
 	echo '</tr>';
 	echo '</table>';
 	echo '<p class="submit">';	
